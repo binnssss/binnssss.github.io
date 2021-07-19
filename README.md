@@ -1,1 +1,1 @@
-asdasdasd
+Hi there! I'm doing my portfolio here on github. I'm using native HTML and CSS codes for this. Wish me luck!
