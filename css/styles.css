@@ -1,0 +1,132 @@
+    .no-deco-list li{
+        list-style: none;
+    }
+    
+    .container3 {
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .container3 h1{
+        font-family: Oswald;
+    }
+    
+    .container2 {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    
+    .subtext {
+        font-size: .75rem;
+        margin-bottom: 2vh;
+        font-family: 'Segoe UI';
+
+    }
+
+    .subtext-alt {
+        text-align: right;
+        font-size: .75rem;
+        margin-bottom: 2vh;
+        font-family: 'Segoe UI';
+
+    }
+
+    .border-btm {
+        border-bottom: 1px white solid;
+        margin-bottom: 2vh;
+    }
+    
+    .head-adjustment{
+        margin-top: 70vh;
+        color: white;
+        font-family: Oswald;
+        transition: .5s;
+    }
+
+    .head-adjustment h1{
+        color: white;
+        background-attachment: fixed;
+        
+    }
+
+    .head-adjustment h4{
+        color: white;
+        background-attachment: fixed;
+        text-align: right;
+    }
+
+    .cont-1-blue {
+    background-color: #06357a;
+    min-height: 100vh;
+    z-index: 2;
+     }
+    
+    .invert {
+      mix-blend-mode: difference;
+    }
+    
+    .cont-1 {
+     background-color: white;
+     min-height: 100vh;
+    }
+    
+    .cont-1-blk {
+      background-color: black;
+      min-height: 100vh;
+      z-index: -2;
+      overflow: hidden;
+      margin-bottom: 2vh;
+    }
+    
+    .cont-1-red {
+      background-color: red;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+    
+    .bkg-building {
+      background-image: url(../images/image1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: black;
+      z-index: 1;
+    }
+    
+     .navigation-bar{
+      display: block;
+      width: 100vw;
+      max-height: 10vh;
+      overflow: hidden;
+      position: fixed;
+      z-index: 2;
+      opacity: 100%;
+      transition: top 0.8s;
+    }
+    
+     .home-buttons a{
+       display: inline;
+       text-decoration: none;
+       color: rgb(255, 255, 255);
+       font-weight: normal;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       transition: 0.5s;
+     }
+    
+     .home-buttons a:hover{
+       color: rgb(255, 208, 107);
+       font-weight: 600;
+       transition: 0.5s;
+     
+    }
+    
+     .inline li{
+       overflow-wrap: normal;
+       text-transform: uppercase;
+       list-style: none;
+       display: inline-block;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       padding: min(50px,1.5%);
+       font-weight: lighter;
+    }

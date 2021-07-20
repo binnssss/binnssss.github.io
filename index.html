@@ -8,22 +8,157 @@
 
         </title>
 
-        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Oswald">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <script src="https://use.fontawesome.com/211945fab4.js"></script>
 
     </head>
 
     <body>
         
-        <div class="navigation-bar">
+        <div class="navigation-bar home-buttons invert" id="navbar">
 
-            <ul>
 
-                <li>Home</li>
+
+            <ul class="inline d-flex justify-content-end container2">
+
+                <li><a href=''>Home</a></li>
+                <li><a href=''>Web&nbsp;Development</a></li>
+                <li><a href=''>Multimedia</a></li>                
 
             </ul>
 
         </div>
 
+        <div class="cont-1-blk bkg-building">
+
+            <div class="w-100 "></div>
+
+                <div class="container2 head-adjustment" id="header">
+                    
+                    <div class="row">
+
+                        <div class="col-6"> 
+
+                            <h1>Vince Magbanua</h1>
+
+                        </div>
+
+                        <div class="col-6">
+                            
+                            <h4>PORTFOLIO 2021</h4>
+
+                            
+                        </div>
+    
+                    </div>
+
+                    <div class="row">
+
+                        <div class="border-btm"></div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-6 subtext">Freelance Graphic Designer & Front End Web Developer <br/>Dasmariñas City, Cavite, Philippines <br/> <a href="https://www.linkedin.com/in/vince-josef-magbanua-732b3a1b9/"><i class="fab fa-linkedin-in"></i></a> </div>
+
+                        <div class="col-6 subtext-alt">Specializes in HTML, CSS, PHP,<br/> JS and REACT.JS FRAMEWORK <br/> Works Remotely </div>
+
+                    </div>
+                    
+                    
+                    <div class="row">
+
+                        <div class="border-btm"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="cont-1 container3">
+
+            <div class="col-3">
+
+                <h1 class="border-btm">Web Development</h1> <br/>
+
+                <div class="d-flex subtext">
+
+                    <div class="col-4 no-deco-list">
+                            
+                            <li>TYPE</li>
+        
+                    </div>
+
+                    <div class="col-4 no-deco-list">
+
+                            <li>FRAMEWORKS/LANGUAGES</li>
+                    
+                    </div>
+
+                </div>
+
+                <div class="d-flex subtext">
+
+                    <div class="col-4 no-deco-list">
+
+                            <li>Web Design</li>
+                            <li>Front End</li>
+                            <li>Web App</li>
+                            <li>UI/UX</li>
+                            <li>Mobile App</li>
+
+                    </div>
+
+                    <div class="col-4 no-deco-list">
+                            
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>PHP</li>
+                            <li>Javascript</li>
+                            <li>React.js</li>
+
+                    </div>
+
+                </div>
+            
+            </div>
+            
+        </div>
+
+        <div class="cont-1-blue">
+            
+        </div>
+
+        <div class="cont-1-red">
+            
+        </div>
+
+
+
     </body>
+
+    <script>
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0vh";
+  } else {
+    document.getElementById("navbar").style.top = "-10vh";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+    </script>
 
 </html>
