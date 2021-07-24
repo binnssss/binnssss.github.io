@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     #myVideo{
       object-fit: cover;
       background-repeat: no-repeat;
@@ -96,6 +97,11 @@
     .container4 {
       margin-top: 5vh;
   }
+=======
+    .no-deco-list li{
+        list-style: none;
+    }
+>>>>>>> 276d0509fd16dbb1ab5d089e8275f36c342bb14b
     
     .container3 {
         margin-top: 5vh;
@@ -103,6 +109,7 @@
         margin-right: 5vw;
     }
 
+<<<<<<< HEAD
     .background-white {
       margin: none;
       z-index: 1;
@@ -111,6 +118,8 @@
       max-width: 100%;
     }
 
+=======
+>>>>>>> 276d0509fd16dbb1ab5d089e8275f36c342bb14b
     .container3 h1{
         font-family: Oswald;
     }
@@ -122,6 +131,7 @@
     
     .subtext {
         font-size: .75rem;
+<<<<<<< HEAD
         font-family: 'Segoe UI';
     }
 
@@ -176,6 +186,11 @@
     .subtext-php i:hover{
       color: #474A8A;
       transition: .5s;
+=======
+        margin-bottom: 2vh;
+        font-family: 'Segoe UI';
+
+>>>>>>> 276d0509fd16dbb1ab5d089e8275f36c342bb14b
     }
 
     .subtext-alt {
@@ -187,6 +202,7 @@
     }
 
     .border-btm {
+<<<<<<< HEAD
         border-bottom: 2px white solid;
         margin-bottom: 2vh;
     }
@@ -197,6 +213,14 @@
   }
     
     .head-adjustment{
+=======
+        border-bottom: 1px white solid;
+        margin-bottom: 2vh;
+    }
+    
+    .head-adjustment{
+        margin-top: 70vh;
+>>>>>>> 276d0509fd16dbb1ab5d089e8275f36c342bb14b
         color: white;
         font-family: Oswald;
         transition: .5s;
@@ -208,7 +232,11 @@
         
     }
 
+<<<<<<< HEAD
     .head-adjustment h2{
+=======
+    .head-adjustment h4{
+>>>>>>> 276d0509fd16dbb1ab5d089e8275f36c342bb14b
         color: white;
         background-attachment: fixed;
         text-align: right;
@@ -230,8 +258,14 @@
     }
     
     .cont-1-blk {
+<<<<<<< HEAD
       min-height: 100vh;
       z-index: -50;
+=======
+      background-color: black;
+      min-height: 100vh;
+      z-index: -2;
+>>>>>>> 276d0509fd16dbb1ab5d089e8275f36c342bb14b
       overflow: hidden;
       margin-bottom: 2vh;
     }
@@ -250,6 +284,7 @@
       background-color: black;
       z-index: 1;
     }
+<<<<<<< HEAD
 
     .bkg-keyboard {
       background-repeat: no-repeat;
@@ -258,6 +293,8 @@
       background-color: black;
       z-index: -1;
     }
+=======
+>>>>>>> 276d0509fd16dbb1ab5d089e8275f36c342bb14b
     
      .navigation-bar{
       display: block;
