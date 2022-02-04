@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <h1>PAGE TO BE RENOVATED</h1>
       
-      <img src="https://www.freepnglogos.com/uploads/wrench/wrench-in-hands-logo-icon-25.png" alt="wrench-icon"/>
+      <img className='App-logo' src="https://www.freepnglogos.com/uploads/wrench/wrench-in-hands-logo-icon-25.png" alt="wrench-icon"/>
       <p>
 
         Thank you for your interest,<br/>
