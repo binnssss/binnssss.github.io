@@ -1,26 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Routing from './routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1>PAGE TO BE RENOVATED</h1>
-      
-      <img className='App-logo' src="https://www.freepnglogos.com/uploads/wrench/wrench-in-hands-logo-icon-25.png" alt="wrench-icon"/>
-      <p>
+    <div className='App'>
+      <nav>
+          { /* Nav Links */ }
+          <ul className='no-bullet'>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='#profile'>Profile</a>
+            </li>
+            <li>
+              <a href='#work'>Work</a>
+            </li>
+          </ul>
+      </nav>
 
-        Thank you for your interest,<br/>
-        Will be back with webpage changes.
-
-      </p>
-
-      <p>Checkout My Friends Portfolios instead: <br/>
-      
-      <a href='https://www.instagram.com/pellamuti/'>Pellamuti</a>
-
-      </p>
-
-
+      <Routing />
     </div>
   );
 }
